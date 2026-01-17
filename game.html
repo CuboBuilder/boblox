@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Boblox - Main</title>
+    <style>
+        .play-container { display: flex; gap: 30px; background: #2b2e31; padding: 30px; border-radius: 15px; margin-top: 20px; }
+        .big-thumb { width: 450px; height: 250px; background: #000; border-radius: 10px; flex-shrink: 0; }
+        .play-btn { 
+            background: #00b06f; color: white; border: none; padding: 20px; 
+            font-size: 28px; border-radius: 8px; cursor: pointer; width: 100%;
+            font-family: "Comic Sans MS";
+        }
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <a href="index.html" class="logo-link">
+            <img src="boblox.png" class="logo-img" alt="B">
+            <span class="brand-text">Boblox</span>
+        </a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="download.html">Download</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="play-container">
+            <div class="big-thumb"></div>
+            <div style="flex-grow: 1;">
+                <h1 style="margin-top: 0;">Main</h1>
+                <p style="color: #aaa;">By Boblox</p>
+                <button class="play-btn" onclick="location.href='boblox-launcher://run'">PLAY</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
