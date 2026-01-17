@@ -143,4 +143,5 @@ class MungusLauncherV3:
 
 if __name__ == "__main__":
     root = tk.Tk(); style = ttk.Style(); style.theme_use('clam')
+
     MungusLauncherV3(root); root.mainloop()
